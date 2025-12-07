@@ -23,8 +23,7 @@ for i in range(n):
     else:
         print(f"Bill of Customer # {i + 1} is PKR {bill_per_customer:.2f}/-")
 
-# Print Total Bill of all Customer
-# for i in range(n):
     totat_revenue += bill_per_customer
     
-print(f"Total Revenue of all customer is PKR {totat_revenue:.2f} ")
+
+print(f"Total Revenue from all customer is PKR {totat_revenue:.2f} ")
