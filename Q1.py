@@ -25,5 +25,6 @@ for i in range(n):
 
     totat_revenue += bill_per_customer
     
-
+# Total Revenue of All Customer
 print(f"Total Revenue from all customer is PKR {totat_revenue:.2f} ")
+
